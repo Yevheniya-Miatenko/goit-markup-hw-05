@@ -142,6 +142,7 @@ height: 16px;
 
 .header-adress-link-item-svg{
 margin-right: 10px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-link:hover .header-adress-link-item-svg{
@@ -153,12 +154,6 @@ fill: #2196F3;
 {
 color: #2196F3;
 fill: #2196F3;
-}
-
-.header-adress,
-.header-adress-link{
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 /*main Заказ услуг */
@@ -226,6 +221,7 @@ padding-right: 32px;
 padding-top: 32px;
 padding-bottom: 32px;
 }
+
 /* Модальное окно "Героя" */
 .backdrop {
 position: fixed;
@@ -674,7 +670,7 @@ color: #FFFFFF;
 background: rgba(33, 150, 243, 0.9);
 top: 100%;
 left: 0;
-transition: all 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .all-text-text{
